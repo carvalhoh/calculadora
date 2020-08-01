@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*TAGs*/
+body {
+    clear: both;
+    background-color: rgb(173,216,230);
+    color: rgb(54,54,54);
+    font: normal 15pt arial,helvetica;
+    
+}
+section {
+    clear: both;
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    box-shadow: 5px,5px,5px, rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+a {
+    padding: 24px 15px;
+    text-decoration: none;
+    color: rgb(54,54,54);
+}
+a:hover {
+    background-color: rgb(173,216,230);
+    color: white;
+}
+/*IDs*/
+#cabecalho {
+    height: 66px;
+    text-align: center;
+    background-color: white;
+}
+#rodape {
+    height: 40px;
+    text-align: center;
+    padding-top: 17px;
+    background-color: white;
+}
+#logo {
+    width: 100px;
+    float: left;
+}
+#menu {
+    text-align: right;
+    width: 700px;
+    float: right;
+    padding: 20px;
+}
+#titulo {
+text-align: center;
+padding: 10px;
+}
+/*Class*/
+.container {
+    margin: auto;
+    width: 900px;
+}
