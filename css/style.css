@@ -11,11 +11,13 @@ body {
     
 }
 section {
+    clear: both;
     background-color: white;
     border-radius: 5px;
     width: 500px;
     box-shadow: 5px,5px,5px, rgba(0, 0, 0, 0.5);
     margin: auto;
+    padding: 20px;
 }
 a {
     padding: 24px 15px;
@@ -33,6 +35,7 @@ a:hover {
     background-color: white;
 }
 #rodape {
+    margin-top: 20px;
     height: 40px;
     text-align: center;
     padding-top: 17px;
@@ -52,8 +55,15 @@ a:hover {
 text-align: center;
 padding: 10px;
 }
+#resposta {
+    margin-top: 15px;
+}
 /*Class*/
 .container {
     margin: auto;
     width: 900px;
+}
+.button {
+    margin-top: 10px;
+    margin-left: 10px;
 }
